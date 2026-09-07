@@ -39,17 +39,63 @@
       padding: 0;
     }
     body {
+      font-family: 'Georgia', serif;
       background-color: #f7f6f2;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
-      padding: 20px 10px;
+      color: #2c2c2c;
+      text-align: center;
+      line-height: 1.6;
+      padding: 40px 20px;
     }
-    .site-wrapper {
-      width: 100%;
+    .container {
       max-width: 600px;
       margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+    .welcome-heading {
+      font-size: 22px;
+      font-style: italic;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .portal-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+    .intro-body {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+    .mockup-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+    .wheel-section {
+      background-color: #ffffff;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      margin-top: 20px;
+      min-height: 150px;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 13px;
+      color: #888;
     }
   </style>
 
@@ -58,9 +104,29 @@
 </head>
 <body>
 
-  <div class="site-wrapper">
-    <!-- Klaviyo Embedded Form Container -->
-    <div class="klaviyo-form-UEdS5M"></div>
+  <div class="container">
+    <h1>MY DAILY ANCHOR</h1>
+    <p class="subtitle">Alignment deck</p>
+    <p class="subtitle" style="font-size: 14px; margin-top: -15px;">by @beccscapes</p>
+
+    <p class="welcome-heading">Welcome.</p>
+    <p class="portal-text">Every card is a portal<br>back to your own center.</p>
+
+    <p class="intro-body">
+      Introducing My Daily Anchor: a physical 33-card alignment deck, paired with an engraved brass stand. Each card features original acrylic art, a daily focus, a powerful affirmation, and a microaction—designed to sit in your visual field and gently rewire your mind throughout the day.
+    </p>
+
+    <!-- Product Image -->
+    <img src="mockup.jpg.jfif" alt="My Daily Anchor Alignment Deck and Brass Stand" class="mockup-img">
+
+    <!-- Interactive Wheel Container -->
+    <div class="wheel-section">
+      <div class="klaviyo-form-UEdS5M"></div>
+    </div>
+
+    <footer>
+      <p>© beccscapes. All rights reserved.</p>
+    </footer>
   </div>
 
 </body>
